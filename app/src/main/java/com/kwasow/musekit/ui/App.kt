@@ -31,17 +31,17 @@ fun App() {
             TopLevelRoute(
                 stringResource(id = R.string.tuning),
                 NoteFork,
-                painterResource(id = R.drawable.ic_note_fork),
+                painterResource(id = R.drawable.outline_music_note_24),
             ),
             TopLevelRoute(
                 stringResource(id = R.string.metronome),
                 Metronome,
-                painterResource(id = R.drawable.ic_metronome),
+                painterResource(id = R.drawable.metronome),
             ),
             TopLevelRoute(
                 stringResource(id = R.string.settings),
                 Settings,
-                painterResource(id = R.drawable.ic_settings),
+                painterResource(id = R.drawable.outline_settings_24),
             ),
         )
 

@@ -41,7 +41,7 @@ class SettingsScreenViewModel(
             preferencesManager.setNightMode(mode)
         }
 
-    fun openGithub() = openUrl("https://github.com/Kwasow/Musekit")
+    fun openGithub() = openUrl("https://github.com/sergcam/Musekit")
 
     fun openMastodon() = openUrl("https://mstdn.social/@kwasow")
 

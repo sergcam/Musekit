@@ -13,19 +13,17 @@ disturbing ads and unnecessary features.
 The main features are a tuning fork and a metronome, with more possibly
 being added later on.
 
-[<img
-    src="https://f-droid.org/badge/get-it-on.png"
-    alt="Get it on F-Droid"
-    height="80">](https://f-droid.org/packages/com.kwasow.musekit)
-[<img 
-    src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
-    alt="Get it on Google Play"
-    height="80">](https://play.google.com/store/apps/details?id=com.kwasow.musekit)
+## This fork
+minor ui changes including
+- replace icons with google ones
+- fix some colors that looked bad (imo) with certain material you color palettes
+- changed splash screen colors
 
 ## Credits
 
 This project wouldn't be possible without the work of others:
 
+- Original Musekit - https://github.com/Kwasow/Musekit
 - TarsosDSP - https://github.com/JorenSix/TarsosDSP
 - ShapeShifter - https://github.com/alexjlockwood/ShapeShifter
 

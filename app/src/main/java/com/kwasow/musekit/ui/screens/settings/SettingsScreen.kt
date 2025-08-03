@@ -69,7 +69,7 @@ fun SettingsScreen() {
 // ====== Private composables
 @Composable
 private fun AppDetails() {
-    val color = MaterialTheme.colorScheme.onPrimary
+    val color = MaterialTheme.colorScheme.surfaceContainer
 
     Column(
         modifier = Modifier.fillMaxWidth(),
@@ -121,7 +121,7 @@ private fun ThemeSetting() {
     val count = if (Build.VERSION.SDK_INT >= 29) 3 else 2
 
     SettingsEntry(
-        icon = painterResource(id = R.drawable.ic_moon),
+        icon = painterResource(id = R.drawable.outline_dark_mode_24),
         iconDescription = stringResource(id = R.string.contentDescription_moon_icon),
         name = stringResource(id = R.string.theme),
         description = stringResource(id = R.string.theme_subtitle),
@@ -177,7 +177,7 @@ private fun NotationStyleSetting() {
     val notationStyle by viewModel.notationStyle.collectAsState()
 
     SettingsEntry(
-        icon = painterResource(id = R.drawable.ic_globe),
+        icon = painterResource(id = R.drawable.outline_language_24),
         iconDescription = stringResource(id = R.string.contentDescription_localization),
         name = stringResource(id = R.string.notation_style),
         description = stringResource(id = R.string.notation_style_subtitle),
@@ -231,7 +231,7 @@ private fun AboutSection(onOpenLicenseDialog: () -> Unit) {
         SettingsDivider()
 
         SettingsEntry(
-            icon = painterResource(id = R.drawable.ic_web),
+            icon = painterResource(id = R.drawable.outline_web_24),
             iconDescription = stringResource(id = R.string.contentDescription_internet_website),
             name = stringResource(id = R.string.developer_website),
             description = stringResource(id = R.string.developer_website_subtitle),
@@ -241,7 +241,7 @@ private fun AboutSection(onOpenLicenseDialog: () -> Unit) {
         SettingsDivider()
 
         SettingsEntry(
-            icon = painterResource(id = R.drawable.ic_file),
+            icon = painterResource(id = R.drawable.outline_description_24),
             iconDescription = stringResource(id = R.string.contentDescription_file_icon),
             name = stringResource(id = R.string.licenses),
             description = stringResource(id = R.string.licenses_subtitle),
